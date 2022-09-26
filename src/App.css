@@ -8,8 +8,30 @@
 }
 
 .App-header {
+  background-color: #5d8989;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: #020202;
+}
+
+.App-body {
   background-color: #020202;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: #95a2f1;
+}
+
+.App-footer {
+  background-color: #020202;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: left;

@@ -93,3 +93,90 @@ h1 {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
+
+.hero {
+	position: relative;
+	overflow: hidden;
+	background-color: black;
+}
+
+@media (min-width: 750px) {
+	.hero {
+		height: 45vw;
+		background-color: black;
+	}
+}
+
+.img {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.gradient,
+.gradient2 {
+	background-image: url('/assets/261451-4174959663.jpg');
+	background-size: cover;
+	pointer-events: none;
+	mix-blend-mode: screen;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.gradient2 {
+	mix-blend-mode: multiply;
+	background-size: cover;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: left ;
+	padding-top: 8rem;
+	padding-left: 2rem;
+}
+
+@media (min-width: 750px) {
+	.overlay {
+		padding-left: 4rem;
+	}
+}
+
+.title {
+	font-weight: 900;
+	font-size: var(--f-u6);
+	margin-bottom: 0.5rem;
+	margin-top: 0;
+}
+
+@media (min-width: 750px) {
+	.title {
+		font-size: var(--f-u12);
+		color: rgb(128, 128, 128);
+	}
+}
+
+.desc {
+	font-size: var(--f-u1);
+	margin-top: 1.5rem;
+	margin-bottom: 0;
+	color: rgb(128, 128, 128);
+}
+
+.subtitle {
+	font-size: var(--f-u6);
+	margin-top: 1.5rem;
+	margin-bottom: 0;
+	color: rgb(128, 128, 128);
+}

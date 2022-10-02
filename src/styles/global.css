@@ -9,6 +9,7 @@
 	--c-orange: #ffb7a3;
 	--c-yellow: #ffdace;
 	--c-white: #fff;
+	--c-red: #ea151f;
 
 	/* Fonts */
 	--f-u18: 11.390625em;
@@ -50,7 +51,7 @@
 
 	--t-fg: var(--c-black);
 	--t-bg: var(--c-white);
-	--t-subdue: var(--c-gray);
+	--t-subdue: var(--c-red);
 	--t-active: var(--c-blue);
 }
 

@@ -193,6 +193,14 @@ h1 {
 	color: rgb(128, 128, 128);
 }
 
+.desc-center {
+	font-size: var(--f-u1);
+	margin-top: 1.5rem;
+	margin-bottom: 0;
+	color: rgb(128, 128, 128);
+	text-align: center;
+}
+
 .subtitle {
 	font-size: var(--f-u6);
 	margin-top: 1.5rem;
@@ -239,4 +247,8 @@ h1 {
 	margin-bottom: 0;
 	margin-left: 1rem;
 	color: rgb(128, 128, 128);
+}
+
+.img-container {
+	display: flex;
 }

@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://adambaty.com',
+    site: 'https://www.adam-baty.com',
 });
